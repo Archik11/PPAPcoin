@@ -24,7 +24,7 @@
 body {
     background: var(--background);
     color: var(--text-color);
-    font-family: 'Comic Sans MS', 'Comic Sans', cursive, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
+    font-family: Helvetica, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -798,25 +798,23 @@ footer {
     body {
         -webkit-text-size-adjust: 100%;
         text-size-adjust: 100%;
+        font-family: Helvetica, sans-serif !important;
     }
     
-    .logo-text {
-        font-family: inherit;
-    }
-    
-    .nav-links a {
-        font-family: inherit;
-    }
-    
-    .hero h1 {
-        font-family: inherit;
-    }
-    
-    .tagline {
-        font-family: inherit;
-    }
-    
-    .glow-button {
-        font-family: inherit;
+    .logo-text, 
+    .nav-links a, 
+    .hero h1, 
+    .tagline, 
+    .glow-button,
+    .section-title,
+    .main-description,
+    .highlight-text,
+    .token-detail,
+    .roadmap-item h3,
+    .roadmap-item ul li,
+    .step h3,
+    .step p,
+    .action-button {
+        font-family: Helvetica, sans-serif !important;
     }
 }
